@@ -4,7 +4,7 @@ A lightweight Bash script for interacting with the Zabbix API.
 Easily manage hosts, items, triggers, and events directly from your terminal.
 Features
 
-    ✅ Create, update, delete Zabbix hosts
+    ✅ Create, update, delete, find Zabbix hosts
 
     ✅ List hosts, host groups, items, triggers, and events
 

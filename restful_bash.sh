@@ -340,8 +340,8 @@ get_events() {
   echo "$RESULT_API_CALL"
 }
 
-# === Create custom action with JSON ===
-function create_custom() {
+# === Send custom action with JSON ===
+function custom_action() {
     read -p "Enter host domain OR press Enter to use default OR 'b' back to menu: " CUSTOM_DOMAIN
     if [[ "$CUSTOM_DOMAIN" == "b" ]]; then
     	return
@@ -393,7 +393,7 @@ function menu() {
         echo "6) Get Host Items"
         echo "7) Get Active Triggers"
         echo "8) Get Events"
-        echo "9) Create Custom"
+        echo "9) Custom Action"
         echo "10) Exit"
         echo "======================================="
         read -p "Select an option: " option
@@ -407,7 +407,7 @@ function menu() {
             6) get_host_items ;;
             7) get_active_triggers ;;
             8) get_events ;;
-            9) create_custom ;;
+            9) custom_action ;;
             10) exit 0 ;;
             *) echo "Invalid option." ;;
         esac
