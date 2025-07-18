@@ -31,8 +31,7 @@ Usage
 
 Clone the repository:
 
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/vahid6889/zabbix_api.git AND => cd zabbix_api
 
 Make the script executable:
 
