@@ -34,7 +34,6 @@ Clone the repository:
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
 
-
 Make the script executable:
 
 chmod +x zabbix_api_manager.sh
