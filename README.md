@@ -19,10 +19,10 @@ Configuration
 
 Before running the script, edit the following variables inside the script file (zabbix_api_manager.sh) based on your Zabbix server settings:
 
-HOST_DOMAIN="http://localhost/api_jsonrpc.php"   # Your Zabbix API URL
-DEFAULT_IP="127.0.0.1"                           # Default IP address for hosts
-USERNAME="Admin"                                 # Zabbix username
-PASSWORD="zabbix"                                # Zabbix password
+    HOST_DOMAIN="http://localhost/api_jsonrpc.php"   # Your Zabbix API URL
+    DEFAULT_IP="127.0.0.1"                           # Default IP address for hosts
+    USERNAME="Admin"                                 # Zabbix username
+    PASSWORD="zabbix"                                # Zabbix password
 
     ⚠️ Make sure to set these values correctly, otherwise the API calls will fail.
 
